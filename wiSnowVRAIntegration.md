@@ -1,27 +1,30 @@
 # VRA SERVICENOW  Itegration User Guide for creating RITM.
 
+# Table of Contents
+
+- [Changelog](#Changelog)
+- [Introduction](#Introduction)
+- [Purpose](#Purpose)
+- [Audience](#Audience)
+- [Scope](#Scope)
+- [Process](#Process)
+     -[Get the required access of VRA and Service now to create a RITM](Get-the-required-access-of-VRA-and-Service-now-to-create-a-RITM)
+     -[List out the API to Create the request](List-out-the-API-to-Create-the-request)
+      
+  -[Description of JSON Attribute](Description-of-JSON-Attribute)
+     -[Create a WorkFlow in VRO](Create-a-WorkFlow-in-VRO)
+     -[Create a worokflow](Create-a-worokflow)
+     -[Configure this workflow in VRA](Configure-this-workflow-in-VRA)
+     -[Testing the Workflow](Testing-the-Workflow)
+
+
+
 # Changelog
   
 | Version | Date       | Description              | Author       |
 | ------- | ---------- | ------------------------ | --------------- |
 | 0.1     | 10/06/2022 | First version | Maikal Kumar |
 
-# Table of Contents
-
-[BluePrint User Guide for Linux Machine
-1](#blueprint-user-guide-for-linux-machine)
-
-[Introduction 3](#Introduction)
-
-[Purpose 3](#purpose)
-
-[Audience 3](#audience)
-
-[Scope 3](#scope)
-
-[How to deploy a VM using blueprint 3](#_Toc90593289)
-
-[1. VM Deployment in DHC Cloud 4](#vm-deployment-in-dhc-cloud)
 
 
 
@@ -158,4 +161,4 @@ The scope of this document covers the following:
 ![](snowimages/run-workflow.JPG)
 	* To see the worflow runs, navigate to Activity -> workflow Runs. then click on the workflow run id to see the execution details.
 ![](snowimages/success-Run-workflow.JPG) 
-	* Also, we can verify in SNOW portal using RITM that we have got in the log of workflow.  
+	* Also, we can verify in SNOW portal using RITM that we have got in the log of workflow. 
