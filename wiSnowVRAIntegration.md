@@ -8,6 +8,7 @@
 - [Audience](#Audience)
 - [Scope](#Scope)
 - [Process](#Process)
+
      -[Get the required access of VRA and Service now to create a RITM](Get-the-required-access-of-VRA-and-Service-now-to-create-a-RITM)
      -[List out the API to Create the request](List-out-the-API-to-Create-the-request)
      -[Description of JSON Attribute](Description-of-JSON-Attribute)
