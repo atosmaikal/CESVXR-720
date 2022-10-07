@@ -61,9 +61,9 @@ The scope of this document covers the following:
 
 
 # Process  
-1. **Get the required access of VRA and Service now to create a RITM.**
+1. # Get the required access of VRA and Service now to create a RITM.
 	> Verify the access of both the Tools.
-3. **List out the API to Create the request.** 
+2. # List out the API to Create the request. 
  	> To Create a RITM In Service Now, we have used below api.
  	> 
  	> ***URL:-*** https://atosglobaldev.service-now.com/api/x_aits2_appintinbo/order/create
@@ -152,7 +152,7 @@ The scope of this document covers the following:
     * Once code is written then select click on "RUN".
   ![](snowimages/Run-work-final-workflow.png)
    
-5. ***Configure this workflow in VRA***
+5. # Configure this workflow in VRA
 	* To Configure workflow in VRA, we need to create a Subscription and then attach in vro workflow in it.
 	* Navigate to Extensiblity -> Subscription -> New Subscription.
 ![](snowimages/subscription-home-page.JPG)
@@ -162,7 +162,7 @@ The scope of this document covers the following:
 ![](snowimages/subscription-workflow-runs-execution-details.JPG)
     * NOTE: If we make this subscription is blocking, While executing this workflow other workflow will not be executed until it finishes.
     
-6. ***Testing the Workflow***
+6. # Testing the Workflow
 	* To test the workflow we need to restart the any vm then we will see that event gets trigged and workflow executed succcessfully.
 ![](snowimages/run-workflow.JPG)
 	* To see the worflow runs, navigate to Activity -> workflow Runs. then click on the workflow run id to see the execution details.
