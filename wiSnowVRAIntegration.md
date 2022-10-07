@@ -161,7 +161,9 @@ The scope of this document covers the following:
 
 * Navigate to Schema Section.drag a scrible task object from left menu in the middle of start and end workflow object.
 
-* Under gemeral table go to input/output section and select defined variable as a input. to select this click on plus '+' button. and then click on select variable button then select that variable.
+* Under general table go to input/output section and select defined variable as a input. to select this click on plus '+' button. and then click on select variable button then select that variable.
+
+![](snowimages/select-reshostPcker.JPG)
 
 * Go to under script sectio then write required code under this tab.
 * Once code is written then select click on "RUN".
