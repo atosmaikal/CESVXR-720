@@ -139,27 +139,32 @@ The scope of this document covers the following:
     
 ![](snowimages/create-new-workflow.JPG)
 
-    * Give the meaningful name of workflow then click on create button.
+* Give the meaningful name of workflow then click on create button.
     
 ![](snowimages/new-workflow2.JPG)
 
-    * Define varible which will be used in workflow for eg Rest-Host.
+* Define varible which will be used in workflow for eg Rest-Host.
     
-    * To define new variable select variable tab and click on new button. After clicking on new button,new dialogue button will open.
+* To define new variable select variable tab and click on new button. After clicking on new button,new dialogue button will open.
     
-    * give the varible name for eg "snowHost".
+* give the varible name for eg "snowHost".
     
-    * select the type of variable for eg: "RestHost".
+* select the type of variable for eg: "RestHost".
     
 ![](snowimages/create-variable.JPG)
 
-    * select the rest host that we have added using add restHost Properties.
-    * click on create button.
-    * Navigate to Schema Section.drag a scrible task object from left menu in the middle of start and end workflow object.
-    * Under gemeral table go to input/output section and select defined variable as a input. to select this click on plus '+' button. and then click on select variable button then select that variable.
-    * Go to under script sectio then write required code under this tab. 
-    * Once code is written then select click on "RUN".
-  ![](snowimages/Run-work-final-workflow.png)
+* select the rest host that we have added using add restHost Properties.
+
+* click on create button.
+
+* Navigate to Schema Section.drag a scrible task object from left menu in the middle of start and end workflow object.
+
+* Under gemeral table go to input/output section and select defined variable as a input. to select this click on plus '+' button. and then click on select variable button then select that variable.
+
+* Go to under script sectio then write required code under this tab.
+
+* Once code is written then select click on "RUN".
+![](snowimages/Run-work-final-workflow.png)
    
 5. # Configure this workflow in VRA
 	* To Configure workflow in VRA, we need to create a Subscription and then attach in vro workflow in it.
