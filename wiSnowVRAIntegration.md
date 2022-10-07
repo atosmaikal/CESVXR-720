@@ -144,6 +144,8 @@ The scope of this document covers the following:
 ![](snowimages/new-workflow2.JPG)
 
 * Define varible which will be used in workflow for eg Rest-Host.
+
+ ![](snowimages/new-workflow-interface.JPG)
     
 * To define new variable select variable tab and click on new button. After clicking on new button,new dialogue button will open.
     
@@ -162,7 +164,6 @@ The scope of this document covers the following:
 * Under gemeral table go to input/output section and select defined variable as a input. to select this click on plus '+' button. and then click on select variable button then select that variable.
 
 * Go to under script sectio then write required code under this tab.
-
 * Once code is written then select click on "RUN".
 ![](snowimages/Run-work-final-workflow.png)
    
@@ -171,14 +172,13 @@ The scope of this document covers the following:
 	* Navigate to Extensiblity -> Subscription -> New Subscription.
 ![](snowimages/subscription-home-page.JPG)
 	* Give the subscription name, select the event topic, select the workflow that we have created in VRO.
-![](snowimages/Subscription-creation.JPG)
 	* if we need to filter any event the we can add condtion as well. to add condition we can use metadata. for eg event.data.oepration == "Reboot" will make this workflow execute only when we will reboot any VMs.
-![](snowimages/subscription-workflow-runs-execution-details.JPG)
+![](snowimages/Subscription-creation.JPG)
     * NOTE: If we make this subscription is blocking, While executing this workflow other workflow will not be executed until it finishes.
     
 6. # Testing the Workflow
 	* To test the workflow we need to restart the any vm then we will see that event gets trigged and workflow executed succcessfully.
-![](snowimages/run-workflow.JPG)
+
 	* To see the worflow runs, navigate to Activity -> workflow Runs. then click on the workflow run id to see the execution details.
-![](snowimages/success-Run-workflow.JPG) 
+	![](snowimages/subscription-workflow-runs-execution-details.JPG)
 	* Also, we can verify in SNOW portal using RITM that we have got in the log of workflow. 
