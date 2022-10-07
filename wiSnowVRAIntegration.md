@@ -195,7 +195,11 @@ The scope of this document covers the following:
 6. # Testing the Workflow
 
    * To test the workflow we need to restart the any vm then we will see that event gets trigged and workflow executed succcessfully.
+   
    ![](snowimages/restart-vm.png)
+   
    * To see the worflow runs, navigate to Activity -> workflow Runs. then click on the workflow run id to see the execution details.
-	![](snowimages/subscription-workflow-runs-execution-details.JPG)
-	* Also, we can verify in SNOW portal using RITM that we have got in the log of workflow. 
+   
+   ![](snowimages/subscription-workflow-runs-execution-details.JPG)
+	
+   * Also, we can verify in SNOW portal using RITM that we have got in the log of workflow. 
