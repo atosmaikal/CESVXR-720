@@ -138,13 +138,21 @@ The scope of this document covers the following:
     * To create workflow Navigate to Workflow, under workflow select a folder or create a new folder for eg DHC then create a workflow under that folder using create New workflow.
     
 ![](snowimages/create-new-workflow.JPG)
+
     * Give the meaningful name of workflow then click on create button.
+    
 ![](snowimages/new-workflow2.JPG)
+
     * Define varible which will be used in workflow for eg Rest-Host.
+    
     * To define new variable select variable tab and click on new button. After clicking on new button,new dialogue button will open.
+    
     * give the varible name for eg "snowHost".
+    
     * select the type of variable for eg: "RestHost".
+    
 ![](snowimages/create-variable.JPG)
+
     * select the rest host that we have added using add restHost Properties.
     * click on create button.
     * Navigate to Schema Section.drag a scrible task object from left menu in the middle of start and end workflow object.
