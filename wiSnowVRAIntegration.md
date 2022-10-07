@@ -125,17 +125,16 @@ The scope of this document covers the following:
 		NOTE:  while adding Host URL,add only baseUrl. for eg: https://atosglobaldev.service-now.com/ is the base url.
 
 	![](snowimages/Host-Authentication.JPG)
-	![](snowimages/proxy-setting.JPG)
-	![](snowimages/select-reshostPcker.JPG)
+	![](snowimages/proxy-setting.JPG)	
 		
 		5. Click on Run
 		
 	![](snowimages/Run.JPG)
         
- 4. # Create a worokflow 
+4. # Create a worokflow 
  
-    * This workflow will be called after an event will be trigger from VRA.    
-    * To create workflow Navigate to Workflow, under workflow select a folder or create a new folder for eg DHC then create a workflow under that folder using create New workflow.
+  * This workflow will be called after an event will be trigger from VRA.    
+  * To create workflow Navigate to Workflow, under workflow select a folder or create a new folder for eg DHC then create a workflow under that folder using create New workflow.
     
 ![](snowimages/create-new-workflow.JPG)
 
@@ -170,17 +169,24 @@ The scope of this document covers the following:
 ![](snowimages/Run-work-final-workflow.png)
    
 5. # Configure this workflow in VRA
-	* To Configure workflow in VRA, we need to create a Subscription and then attach in vro workflow in it.
-	* Navigate to Extensiblity -> Subscription -> New Subscription.
+   * To Configure workflow in VRA, we need to create a Subscription and then attach in vro workflow in it.
+	
+   * Navigate to Extensiblity -> Subscription -> New Subscription.
+   
 ![](snowimages/subscription-home-page.JPG)
-	* Give the subscription name, select the event topic, select the workflow that we have created in VRO.
-	* if we need to filter any event the we can add condtion as well. to add condition we can use metadata. for eg event.data.oepration == "Reboot" will make this workflow execute only when we will reboot any VMs.
+
+   * Give the subscription name, select the event topic, select the workflow that we have created in VRO.
+   
+    * if we need to filter any event the we can add condtion as well. to add condition we can use metadata. for eg event.data.oepration == "Reboot" will make this workflow execute only when we will reboot any VMs.
+    
 ![](snowimages/Subscription-creation.JPG)
-    * NOTE: If we make this subscription is blocking, While executing this workflow other workflow will not be executed until it finishes.
+
+   * NOTE: If we make this subscription is blocking, While executing this workflow other workflow will not be executed until it finishes.
     
 6. # Testing the Workflow
-	* To test the workflow we need to restart the any vm then we will see that event gets trigged and workflow executed succcessfully.
 
-	* To see the worflow runs, navigate to Activity -> workflow Runs. then click on the workflow run id to see the execution details.
+   * To test the workflow we need to restart the any vm then we will see that event gets trigged and workflow executed succcessfully.
+   ![](snowimages/restart-vm.png)
+   * To see the worflow runs, navigate to Activity -> workflow Runs. then click on the workflow run id to see the execution details.
 	![](snowimages/subscription-workflow-runs-execution-details.JPG)
 	* Also, we can verify in SNOW portal using RITM that we have got in the log of workflow. 
