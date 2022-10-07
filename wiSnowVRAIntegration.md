@@ -109,7 +109,7 @@ The scope of this document covers the following:
    | Business_Justification | String   | Yes   | The can be anything meaningful.
    | Description | String   | Yes   | This can be used to define the detailed reason of performing action.
    
-3. ***Create a WorkFlow in VRO.***
+3. # Create a WorkFlow in VRO.
 	> To create a workflow, We need to follow bewlow Steps.
 	
 		1. Login to Respected Environment VRO.
@@ -131,7 +131,7 @@ The scope of this document covers the following:
 		
 	![](snowimages/Run.JPG)
         
- 4. ***Create a worokflow***
+ 4. # Create a worokflow 
  
  	* This workflow will be called after an event will be trigger from VRA.    
     * To create workflow Navigate to Workflow, under workflow select a folder or create a new folder for eg DHC then create a workflow under that folder using create New workflow.
