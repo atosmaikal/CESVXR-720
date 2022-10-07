@@ -110,30 +110,36 @@ The scope of this document covers the following:
    | Description | String   | Yes   | This can be used to define the detailed reason of performing action.
    
 3. # Create a WorkFlow in VRO.
-	> To create a workflow, We need to follow bewlow Steps.
+   > To create a workflow, We need to follow bewlow Steps.
 	
-		1. Login to Respected Environment VRO.
+	1. Login to Respected Environment VRO.
+	
  	![](snowimages/Vro-Login.JPG)
 	
-		2. Add a resthost by Navigating Library -> Workflow -> Library -> Http-Rest -> Configurtion -> Add a Resthost.
-	![](snowimages/Add-resthost.png)
-		3. Click on add Resthost.
+	2. Add a resthost by Navigating Library -> Workflow -> Library -> Http-Rest -> Configurtion -> Add a Resthost.
 	
-		4. Configure the Resthost properties such Host-Properties, Host- Authentication and proxy.	
+	![](snowimages/Add-resthost.png)
+	
+	3. Click on add Resthost.
+	
+	4. Configure the Resthost properties such Host-Properties, Host- Authentication and proxy.	
+	
 	![](snowimages/Host-Properties.JPG)
 	
-		NOTE:  while adding Host URL,add only baseUrl. for eg: https://atosglobaldev.service-now.com/ is the base url.
+	NOTE:  while adding Host URL,add only baseUrl. for eg: https://atosglobaldev.service-now.com/ is the base url.
 
 	![](snowimages/Host-Authentication.JPG)
+	
 	![](snowimages/proxy-setting.JPG)	
 		
-		5. Click on Run
+	5. Click on Run
 		
 	![](snowimages/Run.JPG)
         
 4. # Create a worokflow 
  
-  * This workflow will be called after an event will be trigger from VRA.    
+  * This workflow will be called after an event will be trigger from VRA. 
+     
   * To create workflow Navigate to Workflow, under workflow select a folder or create a new folder for eg DHC then create a workflow under that folder using create New workflow.
     
 ![](snowimages/create-new-workflow.JPG)
@@ -165,19 +171,22 @@ The scope of this document covers the following:
 ![](snowimages/select-reshostPcker.JPG)
 
 * Go to under script sectio then write required code under this tab.
+*
 * Once code is written then select click on "RUN".
+
 ![](snowimages/Run-work-final-workflow.png)
    
 5. # Configure this workflow in VRA
+
    * To Configure workflow in VRA, we need to create a Subscription and then attach in vro workflow in it.
 	
    * Navigate to Extensiblity -> Subscription -> New Subscription.
    
 ![](snowimages/subscription-home-page.JPG)
 
-   * Give the subscription name, select the event topic, select the workflow that we have created in VRO.
+ * Give the subscription name, select the event topic, select the workflow that we have created in VRO.
    
-    * if we need to filter any event the we can add condtion as well. to add condition we can use metadata. for eg event.data.oepration == "Reboot" will make this workflow execute only when we will reboot any VMs.
+ * if we need to filter any event the we can add condtion as well. to add condition we can use metadata. for eg event.data.oepration == "Reboot" will make this workflow execute only when we will reboot any VMs.
     
 ![](snowimages/Subscription-creation.JPG)
 
