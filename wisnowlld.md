@@ -48,25 +48,23 @@ The PoC for vRA- SNOW service request management only covers reboot action in vR
 
   2. Add a resthost by Navigating Library -> Workflow -> Library -> Http-Rest -> Configurtion -> Add a Resthost.
 	
-	![](SnowVraIntegration/snowimages/Add-resthost.png)
+  ![](SnowVraIntegration/snowimages/Add-resthost.png)
 	
-	3. Click on add Resthost.
+  3. Click on add Resthost.
 	
-	4. Configure the Resthost properties such as Host-Properties, Host- Authentication and proxy.	
+  4. Configure the Resthost properties such as Host-Properties, Host- Authentication and proxy.	
 	
-	![](SnowVraIntegration/snowimages/Host-Properties.JPG)
+  ![](SnowVraIntegration/snowimages/Host-Properties.JPG)
 	
-	NOTE:  while adding Host URL,add only baseUrl. for eg: https://atosglobaldev.service-now.com/ is the base url.
+  NOTE:  while adding Host URL,add only baseUrl. for eg: https://atosglobaldev.service-now.com/ is the base url.
 
-	![](SnowVraIntegration/snowimages/Host-Authentication.JPG)
+ ![](SnowVraIntegration/snowimages/Host-Authentication.JPG)
 	
-	![](SnowVraIntegration/snowimages/proxy-setting.JPG)	
+ ![](SnowVraIntegration/snowimages/proxy-setting.JPG)	
 		
-	5. Click on Run.
+5. Click on Run.
 		
-	![](SnowVraIntegration/snowimages/Run.JPG)
-
-   
+![](SnowVraIntegration/snowimages/Run.JPG)   
         
 ## Create vRO workflow 
 
