@@ -190,3 +190,17 @@ The PoC for vRA- SNOW service request management only covers reboot action in vR
    ![](SnowVraIntegration/snowimages/subscription-workflow-runs-execution-details.JPG)
 	
    * Also, we can verify in SNOW portal using RITM that we have got in the log of workflow. 
+   
+   * Requested has intiated with the following details and action. 
+   
+   ![](snowimages/servicenow request.JPG)
+   
+   * Once action is completed, RITM gets competed and closed.
+   ![](snowimages/servicenow ticket closed.JPG)
+
+  ## How Service Now Process the Request
+   
+   * Service now has a simple workflow which gets executed when we do some action on VRA, as a result it creates a RITM with Open Status.
+   * Once action gets completed the RITM Gets completed as well. 
+   * Below is the Digram of High level design of workflow in service now.
+   ![](snowimages/Servicenow workflow HLD.png)
